@@ -1,0 +1,139 @@
+:root {
+  --primary: #b9bbfd;
+  --lightPrimary: #c7c9ff;
+  /* --secondary: #f5a25d; */
+  --secondary: #f36079;
+  /* --secondary: #ffe46d; */
+  --tertiary: #fa7f72;
+  --quatrinary: #6c6b67;
+  --lightYellow: #fff7c0c1;
+  --light: #ffffff;
+  --dark: #182c23;
+  --error: rgb(228, 46, 1);
+  --border-radius: 0.3rem;
+}
+/* background image properties */
+body { 
+  background: url(../assets/background3.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: shrikhand, Arial;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background: var(--primary);
+  color: var(--secondary);
+  border-bottom-style: solid;
+  width: 100%;
+  font-family: 'titan one';
+/* adds outline around text */
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  
+}
+
+/* CARDS */
+.card-header {
+  color: var(--light);
+  margin: 0;
+  background-color: var(--secondary);
+  padding: 0.625rem;
+  border: 3px solid var(--primary);
+  border-radius: var(--border-radius);
+  border-style: solid;
+  border-width: medium;
+}
+
+.card-body {
+  padding: 2.5%;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+/* LAYOUT */
+.container {
+  margin: 2rem;
+  font-family: nixie one, serif;
+}
+.yellowBg {
+  margin: 2rem;
+  display: inline;
+  padding: 3em;
+  border-radius: 2em;
+  background-color: var(--lightYellow);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  font-family: nixie one, serif;
+}
+
+/* TABLE */
+table {
+  border-radius: 15px;
+  /* rounds only the corners of the table */
+  overflow:hidden;
+  border-color: var(--dark);
+  width: 75%;
+}
+.tableName{
+  font-size: 2rem;
+}
+.title {
+  font-size: 1.5rem;
+  text-align: left;
+  background-color:var(--dark);
+  color: var(--dark);
+  font-weight: bolder;
+}
+
+.content {
+  text-align: left;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+tr {
+  color:var(--dark);
+}
+
+/* 404 TEXT */
+.not-found {
+  font-size: large;
+  color: #4B0082;
+}
+
+/* HOMEPAGE ANIMATION */
+.anime-text {
+  font-weight: 800;
+  font-size: 5em;
+  color: var(--secondary);
+  font-family: shrikhand;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  margin-top: 6rem;
+/* adds outline to text */
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+}
+
+.anime-text .animate{
+  display: inline-block;
+  line-height: 1em;
+}
