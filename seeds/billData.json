@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Rent",
+        "amount": 1550.50
+    },
+    {
+        "name": "Electricity",
+        "amount": 252.63
+    },
+    {
+        "name": "Internet",
+        "amount": 75.00
+    },
+    {
+        "name": "Gas",
+        "amount": 50.00
+    }
+]
