@@ -18,4 +18,9 @@ Bill.belongsToMany(User, {
     foreignKey: 'bill_id'
 });
 
+User.belongsToMany(Bill, {
+    through: UserBill,
+    foreignKey: 'user_id'
+});
+
 module.exports = { User, Bill, UserBill };
