@@ -12,6 +12,10 @@
     "bill_id": 3
   },
   {
+    "user_id": 1,
+    "bill_id": 4
+  },
+  {
     "user_id": 2,
     "bill_id": 1
   },
@@ -22,5 +26,9 @@
   {
     "user_id": 2,
     "bill_id": 3
+  },
+  {
+    "user_id": 2,
+    "bill_id": 4
   }
 ]

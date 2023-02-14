@@ -1,17 +1,20 @@
 [
     {
-        "username": "Jess",
-        "email": "jess@gmail.com",
-        "password": "password1234"
+        "username": "Alex",
+        "email": "alex@email.com",
+        "password": "password1234",
+        "income": 50000.00
     },
     {
-        "username": "Chloe",
-        "email": "chloe@gmail.com",
-        "password": "password1234"
+        "username": "Susan",
+        "email": "susan@email.com",
+        "password": "password1234",
+        "income": 75000.00
     },
     {
         "username": "Lydia",
         "email": "lydia@gmail.com",
-        "password": "password1234"
+        "password": "password1234",
+        "income": 35000.00
     }
 ]

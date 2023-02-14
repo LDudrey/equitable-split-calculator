@@ -4,6 +4,7 @@ const sequelize = require('../config/connection');
 
 class UserBill extends Model { }
 
+// Junction table for M:M relationship
 UserBill.init(
   {
     id: {

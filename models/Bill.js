@@ -12,7 +12,7 @@ Bill.init(
         primaryKey: true,
         autoIncrement: true,
     },
-    name: {
+    bill_name: {
         type: DataTypes.STRING,
         allowNull: false,
     },
